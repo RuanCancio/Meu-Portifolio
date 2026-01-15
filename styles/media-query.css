@@ -1,0 +1,29 @@
+@media screen and (min-width:650px){
+    #btn-left {
+        left: 5rem;
+    }
+
+    #btn-right {
+        right: 5rem;
+    }
+.projects-icons img {
+    width: 400px;
+    transition: 0.3s;
+}
+
+.projects-icons img:hover {
+    width: 410px;
+    box-shadow: 2px 2px 30px var(--deco3);
+}
+    
+}
+
+@media screen and (min-width:1070px){
+    #btn-left {
+        left: 10rem;
+    }
+
+    #btn-right {
+        right: 10rem;
+    }
+}
